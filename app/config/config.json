@@ -1,0 +1,34 @@
+{
+	"development": {
+		"username": "root",
+		"password": "ppshein123456",
+		"database": "database_development",
+		"host": "127.0.0.1",
+		"dialect": "mysql",
+		"logging": false
+	},
+	"staging": {
+		"username": "root",
+		"password": "ppshein123456",
+		"database": "database_test",
+		"host": "127.0.0.1",
+		"dialect": "mysql",
+		"logging": false
+	},
+	"production": {
+		"username": "root",
+		"password": "ppshein123456",
+		"database": "ufinitydatabase",
+		"host": "ufinityinstance.cf63acvqghpw.ap-southeast-1.rds.amazonaws.com",
+		"dialect": "mysql",
+		"logging": false
+	},
+	"docker": {
+		"username": "root",
+		"password": "ppshein123456",
+		"database": "database_docker",
+		"host": "db",
+		"dialect": "mysql",
+		"logging": false
+	}
+}
